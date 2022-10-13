@@ -22,13 +22,13 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://download.kde.org/stable/release-service/22.08.1/src/kteatime-22.08.1.tar.xz",
-          "sha256": "1faa6ad2bf7489adad7b011d292cb36d01e2d847d1ed64ffe4afee9b32b3fb55",
+          "url": "https://download.kde.org/stable/release-service/22.08.2/src/kteatime-22.08.2.tar.xz",
+          "sha256": "2d47c3d0cd6b2f704880a54ea7a4be7b7f7f6e2ff349993799a3af4f1f09927e",
           "x-checker-data": {
             "type": "anitya",
             "project-id": 8763,
             "stable-only": true,
-            "url-template": "https://download.kde.org/stable/release-service/$version/kteatime-$version.tar.xz"
+            "url-template": "https://download.kde.org/stable/release-service/$version/src/kteatime-$version.tar.xz"
           }
         },
         {
