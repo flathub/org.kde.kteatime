@@ -6,10 +6,10 @@
     "command": "kteatime",
     "rename-icon": "kteatime",
     "finish-args": [
-        "--share=ipc",
         "--device=dri",
-        "--socket=wayland",
+        "--share=ipc",
         "--socket=fallback-x11",
+        "--socket=wayland",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
     "modules": [
