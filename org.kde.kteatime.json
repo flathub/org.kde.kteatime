@@ -22,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kteatime-23.08.5.tar.xz",
-                    "sha256": "4e855767dd50d09a394f249a97417ba35ed4754b4cc0597a96f9256b291cc2e6",
+                    "url": "https://download.kde.org/stable/release-service/24.05.2/src/kteatime-24.05.2.tar.xz",
+                    "sha256": "2ac31ab6a283c0efa9d3f2210f04d468ae35e4f967d87cf2886c3ac982264ec2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
