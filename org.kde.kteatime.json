@@ -1,7 +1,7 @@
 {
     "app-id": "org.kde.kteatime",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.7",
     "sdk": "org.kde.Sdk",
     "command": "kteatime",
     "rename-icon": "kteatime",
@@ -22,8 +22,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/kteatime-23.08.5.tar.xz",
-                    "sha256": "4e855767dd50d09a394f249a97417ba35ed4754b4cc0597a96f9256b291cc2e6",
+                    "url": "https://download.kde.org/stable/release-service/24.08.0/src/kteatime-24.08.0.tar.xz",
+                    "sha256": "11851a49fb53ab7431d7de22180a6907289f2cd1a72f68d51561193954a75753",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
