@@ -32,7 +32,7 @@
             "name": "kteatime",
             "buildsystem": "cmake-ninja",
             "post-install": [
-                "install -Dm644 org.kde.kteatime.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/org.kde.kteatime.svg"
+                "gunzip -S z /app/share/icons/hicolor/scalable/apps/kteatime.svgz"
             ],
             "sources": [
                 {
@@ -45,11 +45,6 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/kteatime-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "file",
-                    "url": "https://apps.kde.org/app-icons/org.kde.kteatime.svg",
-                    "sha256": "2086bf17b9dc2de379fe0085d464f1b47b9ee4878c5ebc7e53230d6acea69b77"
                 }
             ]
         }
