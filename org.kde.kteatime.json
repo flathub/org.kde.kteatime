@@ -13,6 +13,9 @@
         "--socket=wayland",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
+     "cleanup": [
+        "/share/doc"
+    ],
     "modules": [
         {
             "name": "ocean-sound-theme",
