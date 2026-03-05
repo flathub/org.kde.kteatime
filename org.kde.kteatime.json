@@ -13,7 +13,7 @@
         "--socket=wayland",
         "--talk-name=org.kde.StatusNotifierWatcher"
     ],
-     "cleanup": [
+    "cleanup": [
         "/share/doc"
     ],
     "modules": [
@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.2/src/kteatime-25.12.2.tar.xz",
-                    "sha256": "b25c32563633b0a11fdd833d2105c2b6a3ed11c23082ed8446c2ef1e130621cd",
+                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/kteatime-25.12.3.tar.xz",
+                    "sha256": "a83e1c8fc7a3f009c2ccdb0a1106b098aeaf9d5b3c2e2658e2ce2f8e6a0c70cd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
